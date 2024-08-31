@@ -22,7 +22,6 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 	{
 	case IDYES:
 		cout << "Pressed Yes." << endl;
-		system("pause");
 		break;
 	case IDNO:
 		cout << "Pressed No."<<endl;
@@ -30,6 +29,7 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 	default:
 		break;
 	}
+	system("pause");
 
 	
 	return 0;
